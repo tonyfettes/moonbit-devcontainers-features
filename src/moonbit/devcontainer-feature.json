@@ -1,0 +1,21 @@
+{
+  "id": "moonbit",
+  "version": "0.0.1",
+  "description": "MoonBit Toolchain",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["nightly", "bleeding", ""],
+      "default": "",
+      "description": "Select an specific version of MoonBit to install"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["moonbit.moonbit-lang"]
+    }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/common-utils": {}
+  }
+}

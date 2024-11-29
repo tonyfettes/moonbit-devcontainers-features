@@ -1,0 +1,16 @@
+{
+  "test": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "moonbit": {}
+    }
+  },
+  "with-version": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "moonbit": {
+        "version": "0.1.20241125+34a5d819a"
+      }
+    }
+  }
+}
